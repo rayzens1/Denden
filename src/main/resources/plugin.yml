@@ -1,0 +1,17 @@
+name: Denden
+version: '${project.version}'
+main: fr.denden.Denden
+api-version: '1.20'
+description: Plugin permettant d'envoyer des messages à un autre joueur avec l'Escargophone.
+
+commands:
+  denden:
+    description: Envoie un message à un autre joueur si l'Escargophone est en main.
+    usage: /denden <username> <message>
+    permission: denden.use
+    permission-message: Vous n'avez pas la permission d'utiliser cette commande.
+  giveescargophone:
+    description: Donne un Escargophone au joueur.
+    usage: /giveescargophone
+    permission: escargophone.give
+    permission-message: Vous n'avez pas la permission d'utiliser cette commande.

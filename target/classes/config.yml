@@ -1,0 +1,4 @@
+escargophone:
+  id: "minecraft:stick"  # ID de l'item
+  name: "Escargophone"   # Nom de l'item
+  customModelData: 12345 # CustomModelData de l'item
